@@ -2692,7 +2692,7 @@ __metadata:
   resolution: "@kleros/curate-v2-contracts@workspace:contracts"
   dependencies:
     "@kleros/erc-792": 3.0.0
-    "@kleros/kathari": ^0.23.0
+    "@kleros/kathari": ^0.25.0
     "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13"
     "@nomiclabs/hardhat-truffle5": ^2.0.2
     "@nomiclabs/hardhat-waffle": ^2.0.1
@@ -2779,9 +2779,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@kleros/kathari@npm:^0.23.0":
-  version: 0.23.0
-  resolution: "@kleros/kathari@npm:0.23.0"
+"@kleros/kathari@npm:^0.25.0":
+  version: 0.25.0
+  resolution: "@kleros/kathari@npm:0.25.0"
   dependencies:
     "@commitlint/cli": ^7.2.1
     "@commitlint/config-conventional": ^7.1.2
@@ -2806,9 +2806,9 @@ __metadata:
     eslint-plugin-standard: ^4.0.0
     eslint-plugin-unicorn: ^6.0.1
     eslint-plugin-wyze: ^3.4.0
+    ethlint: ^1.2.4
     lint-staged: ^8.0.4
     prettier: ^1.16.4
-    solium: ^1.1.8
     stylelint: ^9.8.0
     stylelint-config-recommended: ^2.1.0
     stylelint-config-standard: ^18.0.0
@@ -2821,7 +2821,7 @@ __metadata:
     eslint-plugin-react: ^7.6.1
   bin:
     kathari: ./index.js
-  checksum: a665c708551a3487c515f73aec7813e74b098d08d49e952687cbd03b4457b42b9b2eaa06b90d6a4a9815e8f9a5d391857af839dddf1e3a2a9de16b38a834835c
+  checksum: f8c787003e10f7efef32938f14cb1381c91fa9b439d89389237f540ffc1e8f58de44e73b5ffaa3bae5f9d9885133e00aecae64173c160842e91258482884ccf8
   languageName: node
   linkType: hard
 
@@ -12684,6 +12684,29 @@ __metadata:
     is-hex-prefixed: 1.0.0
     strip-hex-prefix: 1.0.0
   checksum: 1f42959e78ec6f49889c49c8a98639e06f52a15966387dd39faf2930db48663d026efb7db2702dcffe7f2a99c4a0144b7ce784efdbf733f4077aae95de76d65f
+  languageName: node
+  linkType: hard
+
+"ethlint@npm:^1.2.4":
+  version: 1.2.5
+  resolution: "ethlint@npm:1.2.5"
+  dependencies:
+    ajv: ^5.2.2
+    chokidar: ^1.6.0
+    colors: ^1.1.2
+    commander: ^2.9.0
+    diff: ^3.5.0
+    eol: ^0.9.1
+    js-string-escape: ^1.0.1
+    lodash: ^4.14.2
+    sol-digger: 0.0.2
+    sol-explore: 1.6.1
+    solium-plugin-security: 0.1.1
+    solparse: 2.2.8
+    text-table: ^0.2.0
+  bin:
+    solium: ./bin/solium.js
+  checksum: 3925da2f841b3d55dd563faaddc8ee3f7b645fb71beca0b33138ba3790c2e7ad898d4927e01ceac63c2c4b775ae99fb14b7c98d7f145f9c48ab7ac1a5a844e33
   languageName: node
   linkType: hard
 
@@ -23690,29 +23713,6 @@ __metadata:
   peerDependencies:
     solium: ^1.0.0
   checksum: b411a0611200afbb9bac7885cc773fd34d0bdadd5d1ef426f12ba9e853b75536eecc9dfd5f8c8b430f4bad9c458537e9fd3a83ee1881f22f89c8a1d14b075b52
-  languageName: node
-  linkType: hard
-
-"solium@npm:^1.1.8":
-  version: 1.2.5
-  resolution: "solium@npm:1.2.5"
-  dependencies:
-    ajv: ^5.2.2
-    chokidar: ^1.6.0
-    colors: ^1.1.2
-    commander: ^2.9.0
-    diff: ^3.5.0
-    eol: ^0.9.1
-    js-string-escape: ^1.0.1
-    lodash: ^4.14.2
-    sol-digger: 0.0.2
-    sol-explore: 1.6.1
-    solium-plugin-security: 0.1.1
-    solparse: 2.2.8
-    text-table: ^0.2.0
-  bin:
-    solium: ./bin/solium.js
-  checksum: 220f0a3bfefc45ca0eed60ca06a217a3017f2fac037661257f588d047ea61f5369f4f6c43ed1cb898a9e9c1480777ac2c4bd3ca242a2752f597404d296550f8f
   languageName: node
   linkType: hard
 
